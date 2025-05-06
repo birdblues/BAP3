@@ -1,0 +1,17 @@
+{
+  "name": "bap3-dev",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "settings": {
+    "python.defaultInterpreterPath": "/opt/conda/envs/bap3/bin/python"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ],
+  "forwardPorts": [8888]
+}

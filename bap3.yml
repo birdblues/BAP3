@@ -23,3 +23,4 @@ dependencies:
       - nutpie==0.9.1
       - preliz==0.3.6
       - PyMC-BART==0.5.2
+      - yfinance
